@@ -43,3 +43,7 @@ const App = () => (
 );
 
 export default App;
+
+   // Implementation:
+// I chose to use tailwind instead of bootstrap because I find that tailwind has more options for customization
+// additionally, I don't find it particularly difficult to use. I also like that tailwind is a utility-first CSS framework
