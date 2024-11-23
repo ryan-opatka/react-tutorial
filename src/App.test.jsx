@@ -16,4 +16,15 @@ describe('counter tests', () => {
     expect(await screen.getByText('count is: 1')).toBeDefined();
   });
 
+  describe('launching', () => {
+    it('should show the current year', () => {
+      render(<App />);
+      screen.getByText(/Schedule/);
+    });
+
+  
+  
+  });
+  
+
 });
